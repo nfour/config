@@ -582,10 +582,10 @@
 		<action name="Crouch" map="Crouch_Button" />
 		<action name="ToggleCrouch" map="ToggleCrouch_Button" />
 		<action name="Dodge" map="Dodge_Button" />
-		<action name="DodgeForward" map="DodgeForward_Button" />
+		<!-- <action name="DodgeForward" map="DodgeForward_Button" />
 		<action name="DodgeRight" map="DodgeRight_Button" />
 		<action name="DodgeBack" map="DodgeBack_Button" />
-		<action name="DodgeLeft" map="DodgeLeft_Button" />
+		<action name="DodgeLeft" map="DodgeLeft_Button" /> -->
 	</context>
 
 	<context name="Items">
@@ -945,12 +945,13 @@
 
 	<!-- MULTITAP ACTIONS -->
 
+	<!--
 	<multitap action="Dodge" count="2" uptime="0.2" downtime="0.2" />
-	<!-- Kerenzikov Dodge -->
 	<multitap action="DodgeForward" count="2" uptime="0.2" downtime="0.2" cancels="Right;Back;Left" />
 	<multitap action="DodgeRight" count="2" uptime="0.2" downtime="0.2" cancels="Forward;Back;Left" />
 	<multitap action="DodgeBack" count="2" uptime="0.2" downtime="0.2" cancels="Right;Forward;Left" />
 	<multitap action="DodgeLeft" count="2" uptime="0.2" downtime="0.2" cancels="Right;Back;Forward" />
+	-->
 	<multitap action="SendFastExitSignalWorkspotDebug" count="2" uptime="0.2" downtime="0.2" />
 
 	<!-- Script only gives 0.25 seconds to read this so tighter tap requiremets -->
