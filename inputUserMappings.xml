@@ -280,9 +280,9 @@
 	<!-- Controller specific dodge -->
 	<mapping name="Dodge_Button" type="Button">
 		<button id="IK_Pad_B_CIRCLE" />
-		<button id="IK_RControl" />
-		<button id="IK_LControl" overridableUI="crouchHold"/>
-		<button id="IK_C" overridableUI="crouchToggle"/>
+		<button id="IK_Alt" />
+		<!-- <button id="IK_LControl" overridableUI="crouchHold"/> -->
+		<!-- <button id="IK_C" overridableUI="crouchToggle"/> -->
 	</mapping>
 
 	<!-- Keyboard specific dodge -->
@@ -308,7 +308,7 @@
 
 	<mapping name="ToggleSprint_Button" type="Button">
 		<button id="IK_Pad_LeftThumb" />
-		<button id="IK_LShift" overridableUI="sprintToggle"/>
+		<!-- <button id="IK_LShift" overridableUI="sprintToggle"/> -->
 	</mapping>
 
 	<mapping name="LeanLeft_Button" type="Button">
