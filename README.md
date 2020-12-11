@@ -1,0 +1,2 @@
+- No more double tap to dodge
+- Dodge is now Alt key
