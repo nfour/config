@@ -456,6 +456,7 @@
 		<action name="ZoomIn" map="ZoomIn_Button"/>
 		<action name="ZoomOut" map="ZoomOut_Button"/>
 		<action name="TagButton" map="Tag_Button" />
+		<include name="QuickSave" />
 	</context>
 
 	<context name="SettingsBraindance">
@@ -494,6 +495,9 @@
 		<include name="UINotifications" />
 		<include name="DeviceControl" />
 		<action name="DescriptionChange" map="ToggleQHackDescription" priority="-1" />
+		<include name="UIExploration" />
+		<include name="UIShared" />
+		<include name="UIMenu" />
 	</context>
 
 	<context name="UIExploration">
@@ -582,10 +586,12 @@
 		<action name="Crouch" map="Crouch_Button" />
 		<action name="ToggleCrouch" map="ToggleCrouch_Button" />
 		<action name="Dodge" map="Dodge_Button" />
-		<!-- <action name="DodgeForward" map="DodgeForward_Button" />
+		<!--
+		<action name="DodgeForward" map="DodgeForward_Button" />
 		<action name="DodgeRight" map="DodgeRight_Button" />
 		<action name="DodgeBack" map="DodgeBack_Button" />
-		<action name="DodgeLeft" map="DodgeLeft_Button" /> -->
+		<action name="DodgeLeft" map="DodgeLeft_Button" />
+		-->
 	</context>
 
 	<context name="Items">
@@ -944,12 +950,11 @@
 	<repeat action="option_switch_prev_settings" delay="0.2" delta="0.1"/>
 
 	<!-- MULTITAP ACTIONS -->
-
 	<!--
 	<multitap action="Dodge" count="2" uptime="0.2" downtime="0.2" />
-	<multitap action="DodgeForward" count="2" uptime="0.2" downtime="0.2" cancels="Right;Back;Left" />
-	<multitap action="DodgeRight" count="2" uptime="0.2" downtime="0.2" cancels="Forward;Back;Left" />
-	<multitap action="DodgeBack" count="2" uptime="0.2" downtime="0.2" cancels="Right;Forward;Left" />
+	<multitap action="DodgeForward" count="2" uptime="0.2" downtime="0.2" cancels="Right;Back;Left" /> 
+	<multitap action="DodgeRight" count="2" uptime="0.2" downtime="0.2" cancels="Forward;Back;Left" /> 
+	<multitap action="DodgeBack" count="2" uptime="0.2" downtime="0.2" cancels="Right;Forward;Left" /> 
 	<multitap action="DodgeLeft" count="2" uptime="0.2" downtime="0.2" cancels="Right;Back;Forward" />
 	-->
 	<multitap action="SendFastExitSignalWorkspotDebug" count="2" uptime="0.2" downtime="0.2" />

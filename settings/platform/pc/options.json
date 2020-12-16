@@ -1196,177 +1196,249 @@
 			"group_name": "/key_bindings/SettingsLocomotion",
 			"options": [
 				{
+					"name": "choice1",
+					"display_name": "Primary Action",
+					"order": 0,
+					"is_input": true
+				},
+				{
+					"name": "choice2",
+					"display_name": "Secondary Action",
+					"order": 1,
+					"is_input": true
+				},
+				{
 					"name": "forward",
 					"display_name": "LocKey#77762",
-					"order": 0,
+					"order": 2,
 					"is_input": true
 				},
 				{
 					"name": "back",
 					"display_name": "LocKey#15324",
-					"order": 1,
+					"order": 3,
 					"is_input": true
 				},
 				{
 					"name": "left",
 					"display_name": "LocKey#77765",
-					"order": 2,
+					"order": 4,
 					"is_input": true
 				},
 				{
 					"name": "right",
 					"display_name": "LocKey#77763",
-					"order": 3,
+					"order": 5,
 					"is_input": true
 				},
 				{
 					"name": "jump",
 					"display_name": "LocKey#77766",
-					"order": 4,
+					"order": 6,
 					"is_input": true
 				},
 				{
 					"name": "sprintHold",
 					"display_name": "LocKey#77767",
-					"order": 5,
+					"order": 7,
 					"is_input": true
 				},
 				{
 					"name": "sprintToggle",
 					"display_name": "LocKey#77768",
-					"order": 6,
+					"order": 8,
+					"is_input": true
+				},
+				{
+					"name": "dodge",
+					"display_name": "Dodge",
+					"order": 9,
 					"is_input": true
 				},
 				{
 					"name": "crouchHold",
 					"display_name": "LocKey#77769",
-					"order": 7,
+					"order": 10,
 					"is_input": true
 				},
 				{
 					"name": "crouchToggle",
 					"display_name": "LocKey#77770",
-					"order": 8,
+					"order": 11,
+					"is_input": true
+				},
+				{
+					"name": "slowWalk",
+					"display_name": "Walk (Hold)",
+					"order": 12,
 					"is_input": true
 				},
 				{
 					"name": "switchItem",
 					"display_name": "LocKey#77771",
-					"order": 9,
+					"order": 13,
 					"is_input": true
 				},
 				{
 					"name": "nextWeapon",
 					"display_name": "LocKey#77784",
-					"order": 10,
+					"order": 14,
 					"is_input": true
 				},
 				{
 					"name": "previousWeapon",
 					"display_name": "LocKey#77785",
-					"order": 11,
+					"order": 15,
 					"is_input": true
 				},
 				{
 					"name": "weapon1",
 					"display_name": "LocKey#77788",
-					"order": 12,
+					"order": 16,
 					"is_input": true
 				},
 				{
 					"name": "weapon2",
 					"display_name": "LocKey#77789",
-					"order": 13,
+					"order": 17,
 					"is_input": true
 				},
 				{
 					"name": "weapon3",
 					"display_name": "LocKey#77790",
-					"order": 14,
+					"order": 18,
 					"is_input": true
 				},
 				{
 					"name": "weapon4",
 					"display_name": "LocKey#77791",
-					"order": 15,
+					"order": 19,
 					"is_input": true
 				},
 				{
 					"name": "attack",
 					"display_name": "LocKey#77773",
-					"order": 16,
+					"order": 20,
 					"is_input": true
 				},
 				{
 					"name": "aim",
 					"display_name": "LocKey#77774",
-					"order": 17,
+					"order": 21,
 					"is_input": true
 				},
 				{
 					"name": "quickmelee",
 					"display_name": "LocKey#77779",
-					"order": 18,
+					"order": 22,
 					"is_input": true
 				},
 				{
 					"name": "reload",
 					"display_name": "LocKey#77780",
-					"order": 19,
+					"order": 23,
 					"is_input": true
 				},
 				{
 					"name": "iconic",
 					"display_name": "LocKey#77787",
-					"order": 20,
+					"order": 24,
 					"is_input": true
 				},
 				{
 					"name": "combatGadget",
 					"display_name": "LocKey#77783",
-					"order": 21,
+					"order": 25,
 					"is_input": true
 				},
 				{
 					"name": "useConsumable",
 					"display_name": "LocKey#77786",
-					"order": 22,
+					"order": 26,
 					"is_input": true
 				},
 				{
 					"name": "visionHold",
 					"display_name": "LocKey#77793",
-					"order": 23,
+					"order": 27,
 					"is_input": true
 				},
 				{
 					"name": "visionToggle",
 					"display_name": "LocKey#77792",
-					"order": 24,
+					"order": 28,
 					"is_input": true
 				},
 				{
 					"name": "openPhone",
 					"display_name": "LocKey#77805",
-					"order": 25,
+					"order": 29,
 					"is_input": true
 				},
 				{
 					"name": "openNotifiation",
 					"display_name": "LocKey#77807",
-					"order": 26,
+					"order": 30,
 					"is_input": true
 				},
 				{
 					"name": "fastForward",
 					"display_name": "LocKey#77896",
-					"order": 27,
+					"order": 31,
 					"is_input": true
 				},
 				{
 					"name": "photoMode",
 					"display_name": "LocKey#77941",
-					"order": 28,
+					"order": 32,
+					"is_input": true
+				},
+				{
+					"name": "OpenHubMenu",
+					"display_name": "Open Hub Menu",
+					"order": 33,
+					"is_input": true
+				},
+				{
+					"name": "OpenPauseMenu",
+					"display_name": "Open Pause Menu",
+					"order": 34,
+					"is_input": true
+				},
+				{
+					"name": "OpenMapMenu",
+					"display_name": "Open Map Menu",
+					"order": 35,
+					"is_input": true
+				},
+				{
+					"name": "OpenJournalMenu",
+					"display_name": "Open Journal Menu",
+					"order": 36,
+					"is_input": true
+				},
+				{
+					"name": "OpenInventoryMenu",
+					"display_name": "Open Inventory Menu",
+					"order": 37,
+					"is_input": true
+				},
+				{
+					"name": "OpenCraftingMenu",
+					"display_name": "Open Crafting Menu",
+					"order": 38,
+					"is_input": true
+				},
+				{
+					"name": "OpenPerksMenu",
+					"display_name": "Open Perks Menu",
+					"order": 39,
+					"is_input": true
+				},
+				{
+					"name": "confirm",
+					"display_name": "Confirm",
+					"order": 40,
 					"is_input": true
 				}
 			]
@@ -1390,6 +1462,12 @@
 					"name": "tag",
 					"display_name": "LocKey#77794",
 					"order": 2,
+					"is_input": true
+				},
+				{
+					"name": "QuickSave",
+					"display_name": "Quick Save",
+					"order": 3,
 					"is_input": true
 				}
 			]
@@ -1436,7 +1514,7 @@
 				{
 					"name": "braindanceExit",
 					"display_name": "LocKey#77852",
-					"order": 5,
+					"order": 6,
 					"is_input": true
 				}
 			]
@@ -1540,21 +1618,153 @@
 			"group_name": "/key_bindings/SettingsUI",
 			"options": [
 				{
+					"name": "selectChoice",
+					"display_name": "Select Choice",
+					"order": 1,
+					"is_input": true
+				},
+				{
+					"name": "selectUp",
+					"display_name": "Select Previous",
+					"order": 2,
+					"is_input": true
+				},
+				{
+					"name": "selectDown",
+					"display_name": "Select Next",
+					"order": 3,
+					"is_input": true
+				},
+				{
 					"name": "prevItem",
 					"display_name": "LocKey#77776",
-					"order": 0,
+					"order": 4,
 					"is_input": true
 				},
 				{
 					"name": "nextItem",
 					"display_name": "LocKey#77775",
-					"order": 1,
+					"order": 5,
+					"is_input": true
+				},
+				{
+					"name": "cancelSelection",
+					"display_name": "Cancel/Close",
+					"order": 6,
 					"is_input": true
 				},
 				{
 					"name": "quickhackInfo",
 					"display_name": "LocKey#77906",
-					"order": 2,
+					"order": 7,
+					"is_input": true
+				},
+				{
+					"name": "selectUpSecondary",
+					"display_name": "UI Up",
+					"order": 8,
+					"is_input": true
+				},
+				{
+					"name": "selectDownSecondary",
+					"display_name": "UI Down",
+					"order": 9,
+					"is_input": true
+				},
+				{
+					"name": "selectLeft",
+					"display_name": "UI Left",
+					"order": 10,
+					"is_input": true
+				},
+				{
+					"name": "selectRight",
+					"display_name": "UI Right",
+					"order": 11,
+					"is_input": true
+				},
+				{
+					"name": "optionNext",
+					"display_name": "Next Option",
+					"order": 12,
+					"is_input": true
+				},
+				{
+					"name": "optionPrev",
+					"display_name": "Previous Option",
+					"order": 13,
+					"is_input": true
+				},
+				{
+					"name": "cycleDisassembleAndBrightness",
+					"display_name": "Cycle Objectives / Disassemble Item",
+					"order": 14,
+					"is_input": true
+				},
+				{
+					"name": "dropItemAndDelete",
+					"display_name": "Map legend / Drop Item ",
+					"order": 15,
+					"is_input": true
+				},
+				{
+					"name": "chatBoxAndTimeSkip",
+					"display_name": "Open Chat Box / Map Time Skip",
+					"order": 16,
+					"is_input": true
+				},
+				{
+					"name": "unequipItem",
+					"display_name": "Unequip Item",
+					"order": 17,
+					"is_input": true
+				},
+				{
+					"name": "previewItem",
+					"display_name": "Preview Item",
+					"order": 18,
+					"is_input": true
+				},
+				{
+					"name": "sellJunk",
+					"display_name": "Sell Junk",
+					"order": 19,
+					"is_input": true
+				},
+				{
+					"name": "unequipUI",
+					"display_name": "Unequip",
+					"order": 20,
+					"is_input": true
+				},
+				{
+					"name": "dropUI",
+					"display_name": "Drop",
+					"order": 21,
+					"is_input": true
+				},
+				{
+					"name": "printDebug",
+					"display_name": "Print Debug(Unused)",
+					"order": 22,
+					"is_input": true
+				},
+				{
+					"name": "resetSettings",
+					"display_name": "Reset Settings to Default",
+					"order": 23,
+					"is_input": true
+				},
+				{
+					"name": "help",
+					"display_name": "Help",
+					"order": 24,
+					"is_input": true
+				},
+				{
+					"name": "skipLoading",
+					"display_name": "Skip Loading",
+					"order": 25,
 					"is_input": true
 				}
 			]
