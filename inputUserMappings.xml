@@ -308,7 +308,7 @@
 
 	<mapping name="ToggleSprint_Button" type="Button">
 		<button id="IK_Pad_LeftThumb" />
-		<button id="IK_LShift" overridableUI="sprintToggle"/>
+		<button overridableUI="sprintToggle"/>
 	</mapping>
 
 	<mapping name="LeanLeft_Button" type="Button">
