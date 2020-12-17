@@ -591,7 +591,7 @@
 	</mapping>
 
 	<mapping name="Vision_Hold_Button" type="Button">
-		<button id="IK_Tab" overridableUI="visionHold"/>
+		<button overridableUI="visionHold"/>
 		<button id="IK_Pad_LeftShoulder" />
 	</mapping>
 
@@ -1345,7 +1345,7 @@
 	<!-- InGame Settings -->
 	<mapping name="restore_default_settings" type="Button" SIEJADependent="true">
 		<button id="IK_Pad_Y_TRIANGLE"/>
-		<button id="IK_F1" overridableUI="resetSettings"/>
+		<button overridableUI="resetSettings"/>
 	</mapping>
 
 	<!-- World Map Menu -->
@@ -1419,7 +1419,7 @@
 
 	<mapping name="world_map_menu_jump_to_player" type="Button" SIEJADependent="true">
 		<button id="IK_Pad_Y_TRIANGLE"/>
-		<button id="IK_Tab" overridableUI="jumpTo"/>
+		<button  overridableUI="jumpTo"/>
 	</mapping>
 
 	<mapping name="world_map_menu_cycle_filter_prev" type="Button" SIEJADependent="true">
@@ -1634,7 +1634,7 @@
 	</mapping>
 
 	<mapping name="PhotoMode_ShowHideUI" type="Button">
-		<button id="IK_Tab" />
+		<button id="IK_Alt" />
 		<button id="IK_Pad_RightThumb" />
 	</mapping>
 
